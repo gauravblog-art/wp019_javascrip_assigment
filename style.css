@@ -1,0 +1,330 @@
+body{
+    background-color: #cbc3c3;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+   
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    float: left;
+  }
+
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    margin-left: 20px;
+  }
+
+  nav li a:hover {
+    background-color: #111;
+  }
+nav li a #log{
+    text-align: left;
+    color: red;
+  }
+  * {box-sizing: border-box}
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+h2.hd{
+    text-align: center;
+}
+
+div.container{
+    text-align: center;
+    width: 50;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* for login page */
+
+
+
+
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 10px 0 5px 0;
+    border-image: auto;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 200px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+  /* now I am going to wokr on body of booking ticket */
+
+  h2.cl1{
+    text-align: center;
+    color: red;
+  }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    
+  }
+.column4 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.column5 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.column6 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.column7 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+.column8 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  /* home page button */
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .ticket-button, .booking-button {
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #008CBA;
+    border: 2px solid #008CBA;
+    border-radius: 50px;
+    margin: 0 2em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .ticket-button:hover, .booking-button:hover {
+    background-color: #fff;
+    color: #008CBA;
+  }
+  
+  .ticket-button {
+    background-color: #008CBA;
+    border-color: #008CBA;
+  }
+  
+  .booking-button {
+    background-color: #F44336;
+    border-color: #F44336;
+  }
+  
+
+  .movie-container, .seat-container, .booking-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #movie-list {
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+  
+  #seat-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+    margin-top: 1em;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    background-color: #7ed6df;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .seat.booked {
+    background-color: #0984e3;
+    cursor: default;
+  }
+  
+  .seat.selected {
+    background-color: #f9ca24;
+  }
+  
+  .booking-container label, .booking-container input[type="submit"] {
+    display: block;
+    margin-top: 1em;
+  }
+  
+  #booking-summary {
+    margin-top: 1em;
+    font-size: 4em;
+    text-align: center;
+  }
