@@ -1,35 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <form id="myForm">
-    <input type="text" name="username" placeholder="Enter your username" />
-    <button type="submit">Submit</button>
-  </form>
-
-  <script>
-   // get the user form element
-  const userForm = document.getElementById('user-form');
-
-  // add a submit event listener to the form
-  userForm.addEventListener('submit', (event) => {
-    // prevent the form from submitting and refreshing the page
-    event.preventDefault();
-    
-    // get the user input values
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-
-    // redirect to another HTML page
-    window.location.href = `another-page.html?name=${name}&email=${email}`;
-  });
-
-
-  </script>
-</body>
+<html>
+  <head>
+      <title>Redirecting using Form Tags</title>
+    </head>
+  <body> 
+   <form action="example.com" method="POST">
+     <input type="submit"/>
+   </form>
+  </body>
 </html>
