@@ -316,6 +316,7 @@ form {
   
   .seat.selected {
     background-color: #f9ca24;
+    cursor: pointer;
   }
   
   .booking-container label, .booking-container input[type="submit"] {

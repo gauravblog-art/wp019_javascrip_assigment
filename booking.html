@@ -34,12 +34,18 @@
           <option value="movie4">The Godfather Part II</option>
           <option value="movie5">12 Angry Men (1957)</option>
         </select>
-      
       </div>
+      
+
       <div class="seat-container">
-        <h2>Total Seats:</h2>
+        
         <div id="seat-grid"></div>
       </div>
+      <div style="text-align: center;">
+        <h1><p>Total Seats Booked: <span id="total-seats"></span></p></h1>
+        <h1><p>Total Price: <span id="total-price"></span></p></h1>
+      </div>
+      <section id="booking">
       <div class="booking-container">
         <h2>Booking:</h2>
         <form action="showing.html" method="POST">
@@ -53,7 +59,7 @@
         </form>
        
       </div>
-  
+    </section>
   
   <script src="index.js"> 
     // get the user form element
